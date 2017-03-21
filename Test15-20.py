@@ -55,6 +55,17 @@ def shownum():
         if sum(List)==i:
             print i
             print List
+#test-20:自由落体
+def ball():
+    high = float(raw_input("输入高度"))
+    num = int (raw_input("输入次数"))
+    List = []
+    for i in range(num):
+        List.append(high)
+        high /= 2
+    print high
+    print sum(List)
+ball()
 #shownum()
 #addnum()
 #checkstr()
