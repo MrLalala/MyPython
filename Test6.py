@@ -24,3 +24,17 @@ for i in range(10):
     List.append(fn(i))
 print List
 
+def func():
+    if i ==0:
+        return 1
+    elif i == 1:
+        return 1
+    else:
+        return fn(i-1)+fn(i-2)
+#访法2：
+    
+for i in range(10):
+    List.append(fn(i))
+
+print List
+
