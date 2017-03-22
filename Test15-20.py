@@ -65,7 +65,7 @@ def ball():
         high /= 2
     print high
     print sum(List)
-ball()
+#ball()
 #shownum()
 #addnum()
 #checkstr()
